@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" href="javascripts/ext/css/ext-all.css" />
+    <script type="text/javascript" src="javascripts/ext/ext-base.js"></script>
+    <script type="text/javascript" src="javascripts/ext/ext-all.js"></script>
+    <script type="text/javascript" src="javascripts/firstTimeLogin.js"></script>
+    <%--<script type="text/javascript" src="./js/allBiz.js"></script>--%>
+    <%--<script type="text/javascript" src="./js/index.js"></script>--%>
+    <script>
+        Ext.onReady(function() {
+            Ext.Msg.alert('aa', 'bb')
+            var win = new com.oocl.ir4.sps.web.js.firstTimeLogin();
+            win.show();
+        })
+    </script>
+</head>
+<body>
+<form>
+</form>
+</body>
+</html>
