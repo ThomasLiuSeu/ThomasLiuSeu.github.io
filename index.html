@@ -78,13 +78,13 @@
     <script src="./luckDraw.js"></script>
     <script>
         // 指针旋转，从右向左顺时针计算奖品
-        var luckArr = ['爱马仕手提包','梵克雅宝项链','施华洛世奇手链','Gucci手提包','蒂芙尼胸针','给老公"按摩"50下'];
+        var luckArr = ['爱马仕手提包','梵克雅宝项链','施华洛世奇手链','Gucci手提包','蒂芙尼胸针','老庙钻石戒指'];
         var luck = new LuckDraw();
         var startRotate = function(elem){
             luck._init({
                 rotateId: '#luckPointer',
-                luckNumber: 5,
-                // luckNumber: Math.floor(Math.random() * (5 - 0) + 0),
+                // luckNumber: 5,
+                luckNumber: Math.floor(Math.random() * (5 - 0) + 0),
                 typeNumber: 6,
                 time: 2000,
                 type: 'turntable',
